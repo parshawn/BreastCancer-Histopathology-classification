@@ -24,9 +24,19 @@ This repository contains the following key files:
 - `.gitignore` — Specifies files and directories to exclude from version control, such as Jupyter checkpoints and Python bytecode.
 
 
-## Dataset
+## Dataset Instructions
 
-The dataset consists of histopathological image tiles labeled by tissue type or disease classification. Detailed instructions for obtaining and preparing the dataset are provided in the `data/README.md` file.
+This project uses the **Breast Histopathology Images** dataset from Zenodo:
+
+**Download link:** [https://zenodo.org/records/3632035](https://zenodo.org/records/3632035)
+
+Due to storage limitations, the dataset is not included in this repository.
+
+### How to Download
+
+1. Go to the dataset page on Zenodo: [https://zenodo.org/records/3632035](https://zenodo.org/records/3632035)
+2. Download and extract the ZIP file(s) containing image tiles.
+3. Organize the extracted folders into the following structure:
 
 ## Installation
 
