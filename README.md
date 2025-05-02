@@ -13,12 +13,16 @@ This repository contains the codebase for a convolutional neural network (CNN)-b
 
 ## Directory Structure
 
-- `models/`: Custom implementations of ResNet-based architectures
-- `training/`: Training scripts and logging utilities
-- `evaluation/`: Scripts for model inference and evaluation
-- `utils/`: Data loaders, preprocessing functions, and performance metrics
-- `notebook/`: Jupyter notebook for exploratory analysis and result visualization
-- `data/`: Instructions on obtaining and organizing the dataset
+This repository contains the following key files:
+
+- `Histopathology_Classification.ipynb` — Main Jupyter notebook implementing the CNN-based classification pipeline, including data loading, preprocessing, model training, evaluation, and result visualization.
+
+- `README.md` — This file, which provides an overview of the project, setup instructions, and key components.
+
+- `requirements.txt` — List of Python packages required to run the notebook (e.g., PyTorch, NumPy, Pandas, scikit-learn, Matplotlib).
+
+- `.gitignore` — Specifies files and directories to exclude from version control, such as Jupyter checkpoints and Python bytecode.
+
 
 ## Dataset
 
